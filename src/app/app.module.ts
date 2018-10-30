@@ -1,9 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import {IconsModule} from './icons-module/icons.module';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
 
 @NgModule({
   declarations: [
@@ -12,7 +11,6 @@ import {IconsModule} from './icons-module/icons.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    IconsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
