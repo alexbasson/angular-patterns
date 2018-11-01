@@ -12,7 +12,7 @@ import {User} from './user';
       </tr>
       </thead>
       <tbody>
-      <tr *ngFor="let user of users">
+      <tr *ngFor="let user of users" routerLink="/users/{{user.id}}">
         <td>{{user.lastName}}, {{user.firstName}}</td>
         <td>{{user.email}}</td>
       </tr>

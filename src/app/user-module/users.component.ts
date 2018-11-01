@@ -20,6 +20,8 @@ import {FetchUsersUsecase} from './fetch-users.usecase';
       <app-empty-users *ngIf="fetchUsers.noUsers"></app-empty-users>
       <app-user-list *ngIf="!fetchUsers.noUsers" [users]="fetchUsers.users"></app-user-list>
     </ng-container>
+
+    <app-new-user-form></app-new-user-form>
   `
 })
 export class UsersComponent {
